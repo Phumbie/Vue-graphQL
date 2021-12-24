@@ -45,7 +45,7 @@
   import { mapActions } from "vuex";
   import CartItem from "./CartItem";
   import gql from "graphql-tag";
-  import ZillaConnect from "@/zillaConnect";
+  import ZillaConnect from "@usezilla/zilla-connect";
   export default {
     components: {
       CartItem,
@@ -91,12 +91,13 @@
       },
       checkoutWithZilla() {
         const zillaConnect = new ZillaConnect();
-
-        // const handler = new Connect();
-        // handler.openbyId(configA);
         let config = {
           onLoad: () => console.log("Widget loaded successfully"),
           onSuccess: (data) => this.handleZillaSuccess(data),
+          // onEvent: (eventName, data) => {
+          //   console.log(eventName);
+          //   console.log(data);
+          // },
           clientOrderReference: new Date(),
           title: "Zilla Bio-cosmetics",
           amount: this.totalCart,
