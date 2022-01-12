@@ -45,7 +45,7 @@
   import { mapActions } from "vuex";
   import CartItem from "./CartItem";
   import gql from "graphql-tag";
-  import ZillaConnect from "@usezilla/zilla-connect";
+  // import ZillaConnect from "@usezilla/zilla-connect";
   export default {
     components: {
       CartItem,
@@ -85,12 +85,12 @@
       },
     },
     methods: {
-      ...mapActions(["showLAert"]),
+      ...mapActions(["showAlert"]),
       closeSide() {
         this.$store.dispatch("openSideBar", false);
       },
       checkoutWithZilla() {
-        const zillaConnect = new ZillaConnect();
+        const zillaConnect = new Connect();
         let config = {
           onLoad: () => console.log("Widget loaded successfully"),
           onSuccess: (data) => this.handleZillaSuccess(data),
