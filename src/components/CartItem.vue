@@ -4,12 +4,12 @@
       <h5 class="cancel" @click="removeCart">X</h5>
       <div>
         <div class="body-content">
-          <h5>{{ cartProduct.title }}</h5>
+          <h5>{{ cartProduct.name }}</h5>
         </div>
         <div class="body-image">
           <img
             style="max-height: 5rem; max-width: 100%"
-            :src="cartProduct.image_url"
+            :src="cartProduct.image"
             alt=""
           />
         </div>

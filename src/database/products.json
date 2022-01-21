@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642721554/Ecommerce/PngItem_2129108_l8a42g.png",
+    "price": 3000,
+    "name": "Zilla Jordan"
+  },
+  {
+    "id": 2,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642723504/Ecommerce/PngItem_652063_bo9ydn.png",
+    "price": 4200,
+    "name": "Zilla Watch"
+  },
+  {
+    "id": 3,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642589739/Ecommerce/SupremeSerumCE1oz_1445x_jnrdrg.png",
+    "price": 2200,
+    "name": "Supreme Syrup"
+  },
+  {
+    "id": 4,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642722166/Ecommerce/PngItem_851035_tiqld6.png",
+    "price": 1950,
+    "name": "Jersey"
+  },
+  {
+    "id": 5,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642589737/Ecommerce/moisturing_body_milk_vq4hwb.png",
+    "price": 3300,
+    "name": "Poggy Mosturizing Body Milk"
+  },
+  {
+    "id": 6,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642722313/Ecommerce/PngItem_52825_lamfv4.png",
+    "price": 1450,
+    "name": "Game chair"
+  },
+  {
+    "id": 7,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642589737/Ecommerce/insta_bright_sgmuun.png",
+    "price": 3100,
+    "name": "InstaBright Body Cream"
+  },
+  {
+    "id": 8,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642722519/Ecommerce/PngItem_4151162_azn59h.png",
+    "price": 2300,
+    "name": "Iphone"
+  },
+  {
+    "id": 9,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642589736/Ecommerce/hemp_face_cream_svi5h3.png",
+    "price": 1700,
+    "name": "Hemp Face Cream"
+  },
+  {
+    "id": 10,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642722946/Ecommerce/PngItem_437584_echuxv.png",
+    "price": 2000,
+    "name": "Zilla Macbook"
+  },
+  {
+    "id": 11,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/q_auto/v1642722716/Ecommerce/PngItem_1027211_wwf2wp.png",
+    "price": 3500,
+    "name": "Zilla Guitar"
+  },
+  {
+    "id": 12,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642589735/Ecommerce/Coffret-Panacee-Ouvert-HD-detoure_1024x_s7ntpk.png",
+    "price": 2600,
+    "name": "Panacee Face Cream"
+  },
+  {
+    "id": 13,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642723365/Ecommerce/PngItem_15973_psfht4.png",
+    "price": 1900,
+    "name": "Zilla women shoe"
+  },
+  {
+    "id": 14,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642589730/Ecommerce/BODY-CREAM-SPF-6-Jar_moxkjo.png",
+    "price": 1200,
+    "name": "SPP Body Cream"
+  },
+  {
+    "id": 15,
+    "image": "https://res.cloudinary.com/zillaafrica/image/upload/v1642721854/Ecommerce/PngItem_137117_1_j2nuwy.png",
+    "price": 2900,
+    "name": "Zilla short"
+  }
+]

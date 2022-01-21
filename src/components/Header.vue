@@ -10,7 +10,7 @@
     </div>
     <div class="header-content">
       <h1>All Products</h1>
-      <p>A 360&#176; lookat Lumin</p>
+      <p>A 360&#176; Zilla products</p>
     </div>
   </div>
 </template>
@@ -26,7 +26,7 @@
 </script>
 <style lang="scss" scoped>
   .header {
-    background-color: #f5f5f4;
+    background-color: white;
     height: 20rem;
     display: flex;
     align-items: center;

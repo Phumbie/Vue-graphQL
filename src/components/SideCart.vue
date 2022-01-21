@@ -85,7 +85,7 @@
       },
     },
     methods: {
-      ...mapActions(["showAlert"]),
+      ...mapActions(["showAlert", "emptyCart"]),
       closeSide() {
         this.$store.dispatch("openSideBar", false);
       },
@@ -102,12 +102,14 @@
           title: "Zilla Bio-cosmetics",
           amount: this.totalCart,
           publicKey:
-            "PK_PROD_fb250b276f6fa2a5ebad0d57ba215596c3950e38c2f9d9570fb107c7919d7749",
+            "PK_SANDBOX_5b78bbb6c45299f27d8210164df036368424f46f147fb263cb7b3f0d07911e8f",
         };
         zillaConnect.openNew(config);
       },
       handleZillaSuccess(data) {
+        console.log(data);
         this.closeSide();
+        this.emptyCart();
         this.showAlert({
           display: true,
           description: "Payment successful, thank you for shopping with us",
@@ -173,7 +175,7 @@
     }
     & .checkout-container {
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
       margin-top: 1.5rem;
     }
     & .checkout-button {

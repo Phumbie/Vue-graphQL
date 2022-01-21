@@ -71,6 +71,9 @@ export default new Vuex.Store({
     SHOW_ALERT: (state, payload) => {
       state.alert = payload;
     },
+    EMPTY_CART: (state) => {
+      state.cart = [];
+    },
   },
   actions: {
     openSideBar: ({ commit }, payload) => {
@@ -100,6 +103,9 @@ export default new Vuex.Store({
 
     showAlert: ({ commit }, payload) => {
       commit("SHOW_ALERT", payload);
+    },
+    emptyCart: ({ commit }, payload) => {
+      commit("EMPTY_CART");
     },
   },
   getters: {
