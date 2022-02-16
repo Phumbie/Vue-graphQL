@@ -2,7 +2,7 @@
   <div>
     <div class="product">
       <div class="image">
-        <div class="loader" v-show="!showLoad">Loading...</div>
+        <!-- <div class="loader" v-if="!showLoad">Loading...</div> -->
         <img
           v-show="showLoad"
           style="max-height: 100%; max-width: 70%"
@@ -26,7 +26,6 @@
 <script>
   export default {
     props: ["productData"],
-
     // mounted() {
     //   console.log(this.productData);
     // },
@@ -117,8 +116,8 @@
     font-size: 10px;
     margin: 50px auto;
     text-indent: -9999em;
-    width: 4em;
-    height: 4em;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     background: #151414;
     background: -moz-linear-gradient(

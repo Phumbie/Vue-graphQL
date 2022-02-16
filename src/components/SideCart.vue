@@ -45,6 +45,7 @@
   import { mapActions } from "vuex";
   import CartItem from "./CartItem";
   import gql from "graphql-tag";
+  import Connect from "@/Sdk/connect";
   // import ZillaConnect from "@usezilla/zilla-connect";
   export default {
     components: {
