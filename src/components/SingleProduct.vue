@@ -2,7 +2,7 @@
   <div>
     <div class="product">
       <div class="image">
-        <!-- <div class="loader" v-if="!showLoad">Loading...</div> -->
+        <div class="loader" v-if="!showLoad">Loading...</div>
         <img
           v-show="showLoad"
           style="max-height: 100%; max-width: 70%"
@@ -65,14 +65,15 @@
     }
 
     & .product-button {
-      background-color: black;
-      color: white;
+      background-color: transparent;
+      color: #6956c7;
       border-radius: 5px;
       padding: 1rem 0;
       width: 10rem;
       margin-top: 1.5rem;
-      border: none;
+      border: 1.3px solid #a699df;
       cursor: pointer;
+      font-weight: semibold;
     }
     > div {
       height: 3rem;

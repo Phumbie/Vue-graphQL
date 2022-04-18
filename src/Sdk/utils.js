@@ -30,7 +30,7 @@ var utils = () => {
     );
     iframe.setAttribute("allow", "camera");
     iframe.setAttribute("allowusermedia", "true");
-    iframe.onload = function () {
+    iframe.onload = function() {
       var loader = document.getElementById("zilla-app-loader");
       if (iframe.style.visibility === "visible") {
         loader.style.display = "none";

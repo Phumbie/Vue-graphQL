@@ -45,7 +45,7 @@
   import { mapActions } from "vuex";
   import CartItem from "./CartItem";
   import gql from "graphql-tag";
-  // import ZillaConnect from "@usezilla/zilla-connect";
+  // import Connect from "../Sdk/connect";
   export default {
     components: {
       CartItem,
@@ -182,10 +182,17 @@
       padding: 1.2rem 1.5rem;
       border: none;
       border-radius: 8px;
-      background: #c70039;
+      background: linear-gradient(
+          217.04deg,
+          #c6003b -191.09%,
+          #6a30c3 77.43%,
+          #63dfdf 156.06%
+        ),
+        #6a30c3;
       color: white;
       cursor: pointer;
       width: 100%;
+      font-size: semibold;
     }
     & .calculation {
       display: flex;

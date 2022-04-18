@@ -26,7 +26,7 @@
 </script>
 <style lang="scss" scoped>
   .header {
-    background-color: white;
+    background-color: #f7f5ff;
     height: 20rem;
     display: flex;
     align-items: center;
@@ -42,9 +42,10 @@
     & .header-content {
       width: 85%;
       margin: auto;
-
+      text-align: center;
       p {
         margin-top: 1.5rem;
+        font-weight: semibold;
       }
     }
   }

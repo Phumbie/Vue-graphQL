@@ -18,7 +18,7 @@ function connect() {
 }
 
 // scenario 1 for setting up an order
-connect.prototype.openById = function ({
+connect.prototype.openById = function({
   publicKey,
   orderCode,
   onClose = anonFunc,
@@ -45,7 +45,7 @@ connect.prototype.openById = function ({
   connect.prototype.utils.addLoader();
   axios
     .get(
-      `${process.env.BASE_URL}/sdk/bnpl/purchase-order/${orderCode}/valid-for-payment`,
+      `https://bnpl-gateway-dev.zilla.africa/sdk/bnpl/purchase-order/${orderCode}/valid-for-payment`,
       {
         headers: {
           "public-key": connect.prototype.utils.encodePublicKey(this.publicKey),
@@ -80,7 +80,7 @@ connect.prototype.openById = function ({
 };
 
 // scenario 2 for setting up an order
-connect.prototype.openNew = function ({
+connect.prototype.openNew = function({
   publicKey,
   amount,
   clientOrderReference,
@@ -172,7 +172,7 @@ connect.prototype.openNew = function ({
 // };
 
 /**connect object property to open widget/modal */
-connect.prototype.open = function () {
+connect.prototype.open = function() {
   //   connect.prototype.setup();
   connect.prototype.utils.openWidget();
 
@@ -204,7 +204,7 @@ connect.prototype.open = function () {
 };
 
 /**connect object property to hide modal and clean up to avoid leak */
-connect.prototype.close = function () {
+connect.prototype.close = function() {
   window.removeEventListener("message", this.eventHandler, false);
   connect.prototype.utils.closeWidget();
   this.onClose();

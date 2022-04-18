@@ -136,7 +136,7 @@
 </script>
 <style lang="scss" scoped>
   .body {
-    background-color: #f8f8f8;
+    /* background-color: #f7f5ff; */
     padding: 2rem 0rem;
     min-height: 100%;
 
@@ -144,13 +144,13 @@
       width: 85%;
       margin: auto;
       display: grid;
-      grid-template-columns: repeat(3, auto);
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
   @media (max-width: 768px) {
     .container {
-      grid-template-columns: repeat(2, auto) !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
       width: 90%;
     }
   }
